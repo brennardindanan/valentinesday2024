@@ -1,0 +1,213 @@
+/* Add the font from Google Fonts or another source if necessary */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Charmonman:wght@400;700&family=Luckiest+Guy&family=Hachi+Maru+Pop&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto; 
+    background-color: pink;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Fuzzy Bubbles";
+  font-size: 5vh; /* Adjust size as needed */
+  font-weight: bold;
+  color: #fff; /* Adjust color as needed */
+  text-shadow: 0px 7px 8px rgba(238, 63, 63, 0.75);
+  padding: 0;
+  margin: 0 auto;
+}
+
+h1 span.from {
+    margin-top: 0.5vh;
+    margin-bottom: 0;
+}
+
+h1 span.cant {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    white-space: normal;
+    max-width: 50%;
+}
+
+
+h2 {
+    font-family: "Luckiest Guy";
+    font-size: 7vh;
+    color: #ee3f3f;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.6);
+    line-height: 1; /* Reduce the line height */
+}
+
+h2 span.my {
+    font-family: "Hachi Maru Pop";
+    font-size: 4.8vh;
+    color: #fff;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: #fff;
+    text-shadow: -4px 7px 4px #ff0000;
+    display: block; /* Make 'my' its own block */
+    margin: 0 auto; /* Center 'my' and remove vertical space */
+    margin-top: auto;
+    line-height: 0.8; /* Adjust line height as needed */
+}
+
+h2 span.valentine {
+    font-family: "Charmonman";
+    font-size: 10vh;
+    text-shadow: 0px 4px 2px #ffffffe8;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffffc9;
+    display: block; /* Make 'Valentine?' its own block */
+    margin: 0 auto; /* Center 'Valentine?' and remove vertical space */
+    line-height: 0.8; /* Adjust line height as needed */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+button {
+    background-color: #90EE90; /* Light green background */
+    color: #FFFFFF; /* White text color */
+    padding: 4vh 5.5vw; /* Adjust padding */
+    font: 600 3.2vh "Fuzzy Bubbles", sans-serif;
+    -webkit-text-stroke-width: 0.1vh;
+    -webkit-text-stroke-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10vh; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0 4px #ffffff; /* Shadow effect */
+    outline: none;
+    margin-top: auto; /* Space above the button */
+    margin-right: 3vw; /* Add space between this button and the next */
+    flex-grow: 1;
+    transition: all 0.3s; /* Optional: Adds a transition effect on hover */
+  }
+  
+  /* Style for the 'Also Yes.' smaller button */
+  button#alsoYesButton { /* Use the ID to be more specific */
+    background-color: #eb7d98; /* Light pink background */
+    color: #FFFFFF; /* White text color */
+    padding: 1vh 1.5vw; /* Smaller padding */
+    font: 500 0.7vh "Fuzzy Bubbles", sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh; /* Less rounded corners than the 'Yes!' button */
+    margin: auto 0; /* No space to the right */
+  }
+  
+  /* Optional: Add hover effects for buttons */
+  button:hover {
+    background-color: #1eba1e;
+    box-shadow: 0 6px #ffffff; /* Larger shadow on hover */
+    transform: translateY(-4px); /* Lift the button a bit on hover */
+  }
+  
+  button#alsoYesButton:hover {
+    background-color: #cb3858; /* New background color on hover */
+    color: #FFFFFF; /* New text color on hover */
+}
+
+  /* Optional: Add active state effects for buttons */
+  button:active {
+    box-shadow: 0 2px #666; /* Smaller shadow when the button is clicked */
+    transform: translateY(2px); /* Button goes down a bit when clicked */
+  }
+
+
+.valentine-image {
+margin-bottom: auto; /* Adjust margin as needed */
+margin: 0 auto;
+width: 80%;
+}
+
+    .valentine-image img {
+    width: auto; /* Ensure the image fills the container */
+    height: 30vh;
+    display: block; /* Ensure proper display */
+    margin: 0 auto; /* Center the image horizontally */
+    }
+
+
+.flower-image {
+    margin: 0 auto;/* Adjust margin as needed */
+    margin-top: auto;
+    width: 100%;
+  }
+  
+  .flower-image img {
+    width: fit-content; /* Ensure the image fills the container */
+    height: 25vh;
+    display: block; /* Ensure proper display */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+
+
+.hearts-container {
+    margin: 0 auto;
+    margin-bottom: auto;
+    width: 80%;
+}
+
+.hearts-image {
+    width: fit-content; /* Ensure the image fills the container */
+    height: 10vh;
+}
+
+
+
+
+/*accept.html*/
+
+
+.accept-image {
+    margin-top: 0; /* Adjust margin to provide space between text and image */
+    margin: 0 auto;
+    width: 100%;
+}
+  
+  .accept-image img {
+        width: auto; /* Ensure the image fills the container */
+        height: 30vh;
+        display: block; /* Ensure proper display */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+
+.pompom-image {
+    width: 100%;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+
+.pompom-image img {
+    width: fit-content;
+    height: 35vh;
+    display: block;
+    margin: 0 auto;
+}
+
